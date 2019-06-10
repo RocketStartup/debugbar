@@ -1,0 +1,24 @@
+{
+    "name": "astronphp/debugbar",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/astronphp/debugbar/issues",
+        "source": "https://github.com/astronphp/debugbar/"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+       
+    },
+    "autoload": {
+        "psr-4": {
+            "Astronphp\\Debugbar\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    }
+}
