@@ -4,7 +4,7 @@ namespace Astronphp\Debugbar;
 
 class ExecutationTime{
 
-	public $instance 	= '';
+	public $instance 	= array();
 	public $serverName 	= '';
 	public $requestUri 	= '';
 	public $page 		= '';
