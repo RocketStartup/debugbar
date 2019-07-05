@@ -114,7 +114,7 @@ class View{
 	
 	public function getErrorsLog(){
 			$l='';
-			if($fh = fopen(PATH_ROOT.'storage/log/Error/php.log', 'r')) {
+			if($fh = fopen(ini_get('error_log'), 'r')) {
 				while (!feof($fh)) {
 					$line = fgets($fh);
 					$l.="<br>".$line;
